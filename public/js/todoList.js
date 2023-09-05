@@ -33,6 +33,7 @@ function addTaskInList() {
                     timer: 1500,
                 });
                 showTodoListOnLoad();
+                $("#todoListTable").removeClass("d-none");
                 $("#taskValue").val("");
             }
         })
